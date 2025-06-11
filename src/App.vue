@@ -1,5 +1,5 @@
 <script setup>
-import Order from './components/Order.vue';
+import order from './components/order.vue';
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import Order from './components/Order.vue';
     </q-header>
 
     <q-page-container class="q-pa-md">
-      <Order />
+      <order />
     </q-page-container>
   </q-layout>
 </template>
